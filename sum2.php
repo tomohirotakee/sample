@@ -1,22 +1,22 @@
 <?php
-function sum($max){
+function sum2($max){
     $result = $max*2;
     return $result;
 }
-echo sum(100);
+echo sum2(100);
 ?>
 
 <?php
-function f($a, $b) {
+function three($a, $b) {
     $result = $a + $b;
     return $result;
 }
-echo f(1,2);
+echo three(1,2);
 ?>
 
 <?php
 function multiply($arr) {
-    $result = 1;
+    $result = 3;
     foreach($arr as $a){
       $result *= $a;
     }
@@ -84,7 +84,6 @@ if($max_number<$a){
  echo date('2020年07月06日14時10分20秒');
  echo '<br>';
  ?>
- <?php
- echo tomohiro>sum2.php;
+ 
  
  
